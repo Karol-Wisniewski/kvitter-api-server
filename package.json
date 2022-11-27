@@ -1,0 +1,25 @@
+{
+	"name": "kvitter-api-server",
+	"version": "0.0.0",
+	"description": "Kvitter Api Server",
+	"main": "src/main.js",
+	"scripts": {
+		"start": "node src/main.js",
+		"dev": "nodemon src/main.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Karol-Wisniewski/kvitter-api-server.git"
+	},
+	"author": "Karol Wiśniewski",
+	"license": "UNLICENSED",
+	"bugs": {
+		"url": "https://github.com/Karol-Wisniewski/kvitter-api-server/issues"
+	},
+	"homepage": "https://github.com/Karol-Wisniewski/kvitter-api-server#readme",
+	"dependencies": {
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2"
+	},
+	"type": "module"
+}
